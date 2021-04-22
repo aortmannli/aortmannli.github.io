@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the About page of Angel Ortmann-Lee's personal website and portfolio.">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Spartan:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Homemade+Apple&family=Spartan:wght@100&display=swap" rel="stylesheet">
+    <title>About Angel Ortmann Lee</title>
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      .content{
+        margin-top: 60px;
+        margin-left: 25%;
+        width: 60%;
+        height: 300px;
+        background-color: #627755;
+        color: white;
+      }
+
+      .pic{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        z-index: 1;
+        margin-top: -300px;
+        margin-left: 15%;
+        background-image: url("img/me.jpg");
+        background-size: cover;
+        float: left;
+        border: solid 3px white;
+      }
+
+      #desription{
+        width: 70%;
+        margin-left: 200px;
+        padding-top: 20px;
+      }
+
+      .contact{
+        width: 60%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+      }
+
+      h2{
+        font-size: 2em;
+      }
+
+      input{
+        border-radius: 30px;
+        border: solid 1px black;
+        height: 30px;
+     }
+
+
+      #row1 input{
+        width: 40%;
+        margin: 10px;
+      }
+
+      #email{
+        margin-left: 20px;
+      }
+
+      #subject{
+        height: 30px;
+        width: 89.5%;
+        margin-bottom: 10px;
+      }
+
+      #button{
+        height: 50px;
+        width: 130px;
+        float: right;
+        margin: 10px;
+        background-color: #627755;
+        color: white;
+      }
+
+      textarea{
+        margin-top: 10px;
+        width: 100%;
+        height: 230px;
+        border-radius: 30px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div id="AOL">
+        <a href="main.html"> <img src="img/froggy.png" alt="frog icon" id="icon"> <p>AOL</p></a>
+      </div>
+        <div id="clickable">
+          <ul>
+            <li><a href="about.html"><strong>About</strong></a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="art.html">Art</a></li>
+          </ul>
+        </div>
+      </div>
+    <div class="content">
+      <div id="desription"> <h1>about</h1>
+      Hello there! Thank you for visiting my page. I am Angel Ortmann-Lee, a freshman at the University of Southern California studying computer science.
+      I grew up in Uzbekistan and came to the US at the age of 10 and went to high school in New York City. I love sharing my culture
+      and interests with the world through my art and cooking. On this website, you will find drawings and meals created by me. Hope you stick around!</div>
+    </div>
+    <div class="pic">
+    </div>
+
+    <div class="contact">
+      <h2>Contact</h2>
+      <form class="" action="index.html" method="post">
+
+        <div id="row1">
+          <label for="name" class="lcol">Name</label>
+          <input type="text" name="name" placeholder="Jane Doe">
+
+          <label for="email" class="lcol" id="email">Email</label>
+          <input type="text" name="email" placeholder="janedoe@gmail.com">
+        </div><br>
+
+
+        <label for="subject" class="lcol">Subject</label>
+        <input type="text" name="subject" id="subject" placeholder="Jane Doe"><br>
+
+        <label for="content"class="lcol"></label>
+        <textarea name="contnet" rows="8" cols="80"></textarea><br>
+
+        <input type="submit" name="submit" id="button" value="Send">
+      </form>
+    </div>
+  </body>
+</html>
