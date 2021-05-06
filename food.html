@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="This is the Food page of Angel Ortmann-Lee's personal website and portfolio.">
+    <link rel="icon" href="img/froggy.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Spartan:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,7 +30,10 @@
         height: 500px;
         border-radius: 30px;
       }
-
+      .pic:hover{
+        transition: transform .5s;
+        transform: scale(1.2);
+      }
       #laghman{
         background-image: url("img/laghman.JPEG");
         background-size: cover;
@@ -45,6 +49,7 @@
         background-size: cover;
         background-position: 0px -130px;
       }
+
       .text{
         float: left;
         margin-left: 10px;
@@ -84,12 +89,13 @@
         margin-top: 0px;
         font-size: 1.2em;
       }
+
     </style>
   </head>
   <body>
     <div class="navbar">
       <div id="AOL">
-        <a href="index.html"> <img src="img/froggy.png" alt="frog icon" id="icon"> <p>AOL</p></a>
+        <a href="main.html"> <img src="img/froggy.png" alt="frog icon" id="icon"> <p>AOL</p></a>
       </div>
         <div id="clickable">
           <ul>
@@ -102,6 +108,8 @@
 
 
       <div class="wrapper">
+        <h1>Food</h1>
+        <p>Here, I will be posting some of my favorite recipes. Please hover over the images to make them bigger.</p>
         <div class="post">
           <h2>Laghman</h2>
           <p>Laghman (لغمن) is a Central Asian noodle soup dish traditionally cooked in a cast-iron pot called a kazan. There are many varietes of Laghman in
@@ -193,11 +201,11 @@
               <li> 6a. Add broth and 1/2 bay leaves. Wait 15-20 minutes.</li>
               <li> 6b. Boil the lagman noodles. No need to salt/oil the pasta water.</li>
               <li> 7. Plate and garnish with fresh cilantro and sesame seeds.</li>
-              </li>
+
             </ul>
 
 
-          </p>
+
         </div>
 
         <div class="post">

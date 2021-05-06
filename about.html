@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="This is the About page of Angel Ortmann-Lee's personal website and portfolio.">
+    <link rel="icon" href="img/froggy.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Spartan:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Homemade+Apple&family=Spartan:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Homemade+Apple&family=Spartan:wght@100&display=swap" rel="stylesheet">
     <title>About Angel Ortmann Lee</title>
     <link rel="stylesheet" href="style.css">
     <style media="screen">
@@ -95,7 +96,7 @@
   <body>
     <div class="navbar">
       <div id="AOL">
-        <a href="index.html"> <img src="img/froggy.png" alt="frog icon" id="icon"> <p>AOL</p></a>
+        <a href="main.html"> <img src="img/froggy.png" alt="frog icon" id="icon"> <p>AOL</p></a>
       </div>
         <div id="clickable">
           <ul>
@@ -116,22 +117,22 @@
 
     <div class="contact">
       <h2>Contact</h2>
-      <form class="" action="index.html" method="post">
+      <form class="" action="confirm.html" method="post">
 
         <div id="row1">
-          <label for="name" class="lcol">Name</label>
+          <label class="lcol" id="name">Name</label>
           <input type="text" name="name" placeholder="Jane Doe">
 
-          <label for="email" class="lcol" id="email">Email</label>
+          <label class="lcol" id="email">Email</label>
           <input type="text" name="email" placeholder="janedoe@gmail.com">
         </div><br>
 
 
-        <label for="subject" class="lcol">Subject</label>
+        <label class="lcol">Subject</label>
         <input type="text" name="subject" id="subject" placeholder="Jane Doe"><br>
 
-        <label for="content"class="lcol"></label>
-        <textarea name="contnet" rows="8" cols="80"></textarea><br>
+        <label for="content" class="lcol"></label>
+        <textarea name="contnet" rows="8" cols="80" id="content"></textarea><br>
 
         <input type="submit" name="submit" id="button" value="Send">
       </form>
